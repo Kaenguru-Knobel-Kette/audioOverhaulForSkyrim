@@ -1,0 +1,12 @@
+{
+  "id": "audioOverhaulForSkyrim",
+  "name": "Audio Overhaul for Skyrim",
+  "author": "thetrader",
+  "version": "1.0.0",
+  "released": "12/14/2018",
+  "updated": "12/14/2018",
+  "description": "Assigns the new sounds from Audio Overhaul for Skyrim to weapons.",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}
