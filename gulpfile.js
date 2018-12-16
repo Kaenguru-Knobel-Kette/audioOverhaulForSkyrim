@@ -11,7 +11,7 @@ gulp.task('clean-dist', function() {
 });
 
 gulp.task('dist-index', function() {
-	return gulp.src(['index.js', 'src/*.js'])
+	return gulp.src(['src/*.js', 'index.js'])
 		.pipe(concat('index.js'))
 		.pipe(gulp.dest('dist'));
 });
