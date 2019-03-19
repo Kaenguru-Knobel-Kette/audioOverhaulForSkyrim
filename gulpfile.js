@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const zip = require('gulp-zip');
 
-const zEditPath = 'C:/Users/user/Documents/Skyrim Tools/zEdit_Alpha_v0.5.3';
+const zEditPath = 'C:/Users/user/Documents/Skyrim Tools/zEdit_Alpha_v0.5.4';
 
 gulp.task('clean-dist', function() {
 	return del('dist');
