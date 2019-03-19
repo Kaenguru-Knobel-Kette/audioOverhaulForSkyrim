@@ -13,7 +13,7 @@ registerPatcher({
 	},
 	execute: {
 		initialize: function(patch, helpers, settings, locals) {
-			localsBuilder.setLocals(patch, helpers, settings, locals);
+			setLocals(patch, helpers, settings, locals);
 		},
 		process: [
 			patcher.dagger,
